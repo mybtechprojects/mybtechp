@@ -1,0 +1,128 @@
+﻿<div class="row">
+    <div class="col-md-4">
+        <div class="box box-widget widget-user-2">
+            <div class="widget-user-header bg-gray-active">
+                <div class="widget-user-image">
+                    <img class="img-circle" src="../dist/img/java-square.png" alt="User Avatar">
+                </div>
+                <h3 class="widget-user-username">Java Projects</h3>
+                <h5 class="widget-user-desc">Get The Java Projects</h5>
+            </div>
+            <div class="box-footer no-padding">
+                <ul class="nav nav-stacked">
+                    <li><a>Sample Projects<button class="pull-right badge bg-blue-gradient btn-link" ng-click="getSampleAllProject(1);">31</button></a></li>
+                    <li><a>Full Projects<button class="pull-right badge bg-green-gradient btn-link" ng-click="getFullProject(1);">12</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="box box-widget widget-user-2">
+            <div class="widget-user-header bg-gray-active">
+                <div class="widget-user-image">
+                    <img class="img-circle" src="../dist/img/C_Sharp.png" alt="User Avatar">
+                </div>
+                <h3 class="widget-user-username">C# Projects</h3>
+                <h5 class="widget-user-desc">Get The C# Projects</h5>
+            </div>
+            <div class="box-footer no-padding">
+                <ul class="nav nav-stacked">
+                    <li><a>Sample Projects<button class="pull-right badge bg-blue-gradient btn-link" ng-click="getSampleAllProject(2);">31</button></a></li>
+                    <li><a>Full Projects<button class="pull-right badge bg-green-gradient btn-link" ng-click="getFullProject(2);">12</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="box box-widget widget-user-2">
+            <div class="widget-user-header bg-gray-active">
+                <div class="widget-user-image">
+                    <img class="img-circle" src="../dist/img/angularjs.png" alt="User Avatar">
+                </div>
+                <h3 class="widget-user-username">Angularjs Projects</h3>
+                <h5 class="widget-user-desc">Get The Angularjs Projects</h5>
+            </div>
+            <div class="box-footer no-padding">
+                <ul class="nav nav-stacked">
+                    <li><a>Sample Projects<button class="pull-right badge bg-blue-gradient btn-link" ng-click="getSampleAllProject(3);">31</button></a></li>
+                    <li><a>Full Projects<button class="pull-right badge bg-green-gradient btn-link" ng-click="getFullProject(3);">12</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="box">
+    <div class="box-header">
+        <h3 class="box-title">{{message}}</h3>
+    </div>
+    <div class="box-body">
+        <table id="example1" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Project Technology</th>
+                    <th>View Detail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Trident</td>
+                    <td>
+                        Internet
+                        Explorer 4.0
+                    </td>
+                    <td>Win 95+</td>
+                </tr>
+                <tr>
+                    <td>Trident</td>
+                    <td>
+                        Internet
+                        Explorer 5.0
+                    </td>
+                    <td>Win 95+</td>
+                </tr>
+                <tr>
+                    <td>Trident</td>
+                    <td>
+                        Internet
+                        Explorer 5.5
+                    </td>
+                    <td>Win 95+</td>
+
+                </tr>
+                <tr>
+                    <td>Trident</td>
+                    <td>
+                        Internet
+                        Explorer 6
+                    </td>
+                    <td>Win 98+</td>
+
+                </tr>
+                <tr>
+                    <td>Trident</td>
+                    <td>Internet Explorer 7</td>
+                    <td>Win XP SP2+</td>
+
+                </tr>
+                <tr>
+                    <td>Trident</td>
+                    <td>AOL browser (AOL desktop)</td>
+                    <td>Win XP</td>
+
+                </tr>
+                <tr>
+                    <td>Gecko</td>
+                    <td>Firefox 1.0</td>
+                    <td>Win 98+ / OSX.2+</td>
+
+                </tr>
+                <tr>
+                    <td>Gecko</td>
+                    <td>Firefox 1.5</td>
+                    <td><input type="button" value="View Detail" ng-click="getProjectDetail();" /></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

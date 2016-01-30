@@ -1,0 +1,6 @@
+c:\users\kanha\documents\visual studio 2013\Projects\MyBtechP\MyBtechP\bin\MyBtechP.dll.config
+c:\users\kanha\documents\visual studio 2013\Projects\MyBtechP\MyBtechP\bin\MyBtechP.dll
+c:\users\kanha\documents\visual studio 2013\Projects\MyBtechP\MyBtechP\bin\MyBtechP.pdb
+c:\users\kanha\documents\visual studio 2013\Projects\MyBtechP\MyBtechP\obj\Debug\MyBtechP.csprojResolveAssemblyReference.cache
+c:\users\kanha\documents\visual studio 2013\Projects\MyBtechP\MyBtechP\obj\Debug\MyBtechP.dll
+c:\users\kanha\documents\visual studio 2013\Projects\MyBtechP\MyBtechP\obj\Debug\MyBtechP.pdb
